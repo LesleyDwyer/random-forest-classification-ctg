@@ -83,7 +83,7 @@ conf_matrix = confusionmat(test_data.NSP,predicted_NSP)
 % Calculate Test Accuracy  
 test_accuracy = (conf_matrix(1,1) + conf_matrix(2,2) + conf_matrix(3,3))/size(test_data, 1) * 100
 
-% Calculate Test Precision, Recall, F-Measure and ROC Curve for each class
+% Calculate Test Precision, Recall, and F-Measure for each class
 
 class = [1; 2; 3];
 TP = [conf_matrix(1,1); conf_matrix(2,2);  conf_matrix(3,3)];
