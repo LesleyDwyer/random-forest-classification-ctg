@@ -1,7 +1,7 @@
 # msc-machine-learning
-Coursework for Machine Learning INM431 module - Random Forest model using UCI Cardiotocography dataset
+##Coursework for Machine Learning INM431 module - Random Forest multi-class classification using UCI Cardiotocography dataset
 
-This is the coursework for my Machine Learning module at City, University of London in 2018-19. It was a project done in pairs where we chose a dataset, each person built a model, and then we compared the models on a poster.
+This is the coursework for my Machine Learning module at City, University of London in 2018-19. It was a project done in pairs where we chose a dataset, each person built a model, and then we compared the models on a poster. For the Random Forest model, I used a grid search to tune the model hyperparameters (number of trees and number of predictors) and out-of-bag (OOB) error to estimate the test error. I calculated the accuracy, precision, recall and f-measure to measure the test performance.
 
 There are four files:
   1) coursework.pdf - the coursework specification
