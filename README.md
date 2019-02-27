@@ -1,4 +1,4 @@
-# MSc-MachineLearning
+# msc_machine_learning
 Coursework for Machine Learning INM431 module - Random Forest model using UCI Cardiotocography dataset
 
 This is the coursework for my Machine Learning module at City, University of London in 2018-19. It was a project done in pairs where we chose a dataset, each person built a model, and then we compared the models on a poster.
